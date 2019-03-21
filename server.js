@@ -7,6 +7,7 @@ var route = require("./routes/htmlRoutes.js")
 
 var app = express();
 
+var MONGODB_URI = process.env.MONGODB_URI || "https://frozen-forest-13112.herokuapp.com/mongolab-triangular-79402";
 
 app.use(express.static('public'))
 
